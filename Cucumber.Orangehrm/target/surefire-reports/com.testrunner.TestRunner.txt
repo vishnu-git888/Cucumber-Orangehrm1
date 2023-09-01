@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: com.testrunner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.404 s <<< FAILURE! -- in com.testrunner.TestRunner
+com.testrunner.TestRunner -- Time elapsed: 0.394 s <<< ERROR!
+java.lang.NoSuchMethodError: org.junit.runner.Description.createSuiteDescription(Ljava/lang/String;Ljava/io/Serializable;[Ljava/lang/annotation/Annotation;)Lorg/junit/runner/Description;
+	at cucumber.runtime.junit.FeatureRunner.getDescription(FeatureRunner.java:43)
+	at cucumber.api.junit.Cucumber.describeChild(Cucumber.java:90)
+	at cucumber.api.junit.Cucumber.describeChild(Cucumber.java:38)
+	at org.junit.runners.ParentRunner.getDescription(ParentRunner.java:290)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:315)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+

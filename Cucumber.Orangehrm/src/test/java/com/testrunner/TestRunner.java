@@ -13,7 +13,8 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features="src//test//java//com//featureFile",
-glue = "com.stepdefinition")
+glue = "com.stepdefinition",
+plugin = {"html:HtmlReport/OrangeHtml.html","pretty","json:JsonReport/OrangeJson.json"})
 public class TestRunner extends BaseClass  {
 	public static WebDriver driver;
 	

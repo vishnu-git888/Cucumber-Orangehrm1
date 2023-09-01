@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Login Functionality",
+        "description": "",
+        "id": "adding-new-employee-details-and-verify-the-list-in-orangehrm-application;login-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8795229500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Launch The URL",
+            "match": {
+              "location": "StepDefinition.user_Launch_The_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 923268400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Enter The Username In Username Field",
+            "match": {
+              "location": "StepDefinition.user_Enter_The_Username_In_Username_Field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 125847400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Enter The Password In Password Field",
+            "match": {
+              "location": "StepDefinition.user_Enter_The_Password_In_Password_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 94694300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User Cick On The Loing Button And It Navigate Home Page",
+            "match": {
+              "location": "StepDefinition.user_Cick_On_The_Loing_Button_And_It_Navigate_Home_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Adding New Employee Details And Verify The List In Orangehrm Application",
+    "description": "",
+    "id": "adding-new-employee-details-and-verify-the-list-in-orangehrm-application",
+    "keyword": "Feature",
+    "uri": "Orangehrm.feature"
+  }
+]
